@@ -1,5 +1,3 @@
-# dncs2-http3
-
 # HTTP3/QUIC on a NGINX Web Server
 
 OBJECTIVES
