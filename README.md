@@ -19,7 +19,7 @@ Softwares and other tools used
 Topology of the network
 - 
 - To make the topology scalable a router has also been created.
-/IMAGE/
+![](img/topology.png)
 
 1- Requesting TSL/SSL certificates
 - 
@@ -186,7 +186,7 @@ sysctl -w net.ipv4.ip_forward=1
 - Now that everything is set up, with the previously mentioned command we can curl using http3
 `sudo docker run -it --rm ymuski/curl-http3 ./httpstat.sh https://http3testing.duckdns.org:443  --http3`
 - The output will be the timings of different steps during the connection and the downloading of the index.html file from the webserver. 
-/IMAGE/
+![](img/curl.png)
 - Using these numbers we can obtain an approssimation of the throughput.
 - With an average of 4500ms using a 18MB file, we can say that the throughput is approximately 4MB/s (32mbps) in this experiment.
 
